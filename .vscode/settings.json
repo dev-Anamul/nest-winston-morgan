@@ -1,0 +1,5 @@
+{
+  "cSpell.words": ["pgadmin"],
+  "editor.codeActionsOnSave": { "source.fixAll": "explicit","source.organizeImports": "explicit" },
+  "editor.formatOnSave": false
+}

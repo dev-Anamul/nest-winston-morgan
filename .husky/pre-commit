@@ -1,0 +1,4 @@
+yarn lint
+yarn format
+yarn test
+yarn build

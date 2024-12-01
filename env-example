@@ -1,0 +1,11 @@
+
+# MongoDB
+MONGO_LOG_URL=<your_database_url>
+
+# Telegram
+TELEGRAM_TOKEN=<your_telegram_token>
+TELEGRAM_CHAT_ID=<your_telegram_chat_id>
+
+# Slack
+SLACK_WEBHOOK_URL=<your_slack_webhook>
+SLACK_USERNAME=<slack_username>

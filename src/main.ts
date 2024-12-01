@@ -4,11 +4,7 @@ import helmet from 'helmet';
 import * as morgan from 'morgan';
 import { AppModule } from './app.module';
 import { GlobalExceptionFilter } from './global-exception/global-exception.filter';
-import {
-  customMorganFormat,
-  morganStream,
-  winstonLoggerConfig,
-} from './winston';
+import { customMorganFormat, morganStream, winstonLoggerConfig } from './winston';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, {

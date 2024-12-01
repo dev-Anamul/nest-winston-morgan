@@ -1,8 +1,5 @@
 /* eslint-disable prettier/prettier */
-import {
-    ElasticsearchTransformer,
-    ElasticsearchTransport,
-} from 'winston-elasticsearch';
+import { ElasticsearchTransformer, ElasticsearchTransport } from 'winston-elasticsearch';
 
 export const elasticTransports = new ElasticsearchTransport({
   level: 'info',

@@ -31,10 +31,7 @@ export class GlobalExceptionFilter implements ExceptionFilter {
     if (exception instanceof HttpException) {
       status = exception.getStatus();
       const errorResponse = exception.getResponse();
-      message =
-        errorResponse instanceof Object
-          ? errorResponse
-          : { message: errorResponse };
+      message = errorResponse instanceof Object ? errorResponse : { message: errorResponse };
 
       // handle throttle exception error
     } else if (exception instanceof PayloadTooLargeException) {
